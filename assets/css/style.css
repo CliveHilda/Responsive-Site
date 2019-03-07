@@ -1,0 +1,79 @@
+body{
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.grid{
+  background-color: whitesmoke;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+#heading{
+  text-align: center;
+}
+
+#subheading{
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.offering{
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 2.5fr 1fr;
+  margin: auto;
+  grid-row-gap: 50px;
+  border: 2px black solid;
+}
+
+.image{
+  margin: auto;
+  padding: 10px;
+}
+
+.picture{
+  height: 100px;
+}
+
+.title{
+  text-align: center;
+}
+
+.price{
+}
+
+.gallery{
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  border: 2px black solid;
+}
+
+.galleryPic{
+  height: 100px;
+  margin: auto;
+}
+
+.experience{
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 2fr 1fr;
+  grid-row-gap: 20px;
+  border: 2px black solid;
+}
+
+.contact{
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  border: 2px black solid;
+}
+
+footer{
+  text-align: center;
+}

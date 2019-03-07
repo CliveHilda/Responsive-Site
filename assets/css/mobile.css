@@ -1,0 +1,20 @@
+@media (max-width: 768px){
+  body{
+    background-color: black;
+    color: white;
+  }
+
+  .grid{
+    background-color: gray;
+    padding: 10px;
+  }
+
+  .grid{
+    border: 2px white solid;
+  }
+
+  .gallery{
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
